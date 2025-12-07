@@ -1,0 +1,29 @@
+/* Overall font and spacing */
+.system-overview {
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+/* Make h4 (System Overview) bold and clear */
+.system-overview h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Indent all subsections (h5s and their lists) */
+.system-overview .stage {
+  margin-left: 40px;   /* indentation for each stage */
+  margin-bottom: 15px; /* spacing between stages */
+}
+
+/* Style h5 (stage titles) */
+.system-overview .stage h5 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+/* Indent bullets within each stage */
+.system-overview ul {
+  margin-left: 20px;
+  padding-left: 20px;
+}
